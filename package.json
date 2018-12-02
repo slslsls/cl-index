@@ -1,0 +1,16 @@
+{
+  "name": "cl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "craigslist-searcher": "^1.0.3",
+    "lodash": "^4.17.11",
+    "rsvp": "^4.8.4"
+  }
+}
