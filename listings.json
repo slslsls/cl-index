@@ -2,10 +2,9 @@
   "mappings": {
     "_doc": {
       "properties": {
-        "city": { "type": "keyword" },
-        "latitude": { "type": "geo_point" },
-        "longitude": { "type": "geo_point" },
-        "price": { "type": "float" },
+        "city": { "type": "text" },
+        "location": { "type": "geo_point" },
+        "price": { "type": "integer" },
         "title": { "type": "text" },
         "url": { "type": "keyword" }
       }

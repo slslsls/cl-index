@@ -1,0 +1,23 @@
+{
+  "auburn": {
+    "city": "Auburn, AL",
+    "location": {
+      "lat": 32.6098566,
+      "lon": -85.48078249999999
+    }
+  },
+  "bham": {
+    "city": "Birmingham, AL",
+    "location": {
+      "lat": 33.5206608,
+      "lon": -86.80248999999999
+    }
+  },
+  "indianapolis": {
+    "city": "Indianapolis, IN",
+    "location": {
+      "lat": 32.6098566,
+      "lon": -85.48078249999999
+    }
+  }
+}

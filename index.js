@@ -1,9 +1,15 @@
+const es = require('elasticsearch');
 const fs = require('fs');
 const rsvp = require('rsvp');
 const _ = require('lodash');
+const esClient = new es.Client({
+  host: 'localhost:9200',
+  log: 'trace'
+});
 const search = require('craigslist-searcher').search;
 // change the cities file below is necessary, as of now it's calling cities-test which is just a sublist of cities.txt
-const cities = fs.readFileSync('./cities-test.txt', 'utf-8').split('\n');
+// const cities = fs.readFileSync('./cl-subdomains-test.txt', 'utf-8').split('\n');
+const subdomains = JSON.parse(fs.readFileSync('./cl-subdomains-test.json', 'utf-8'));
 
 // FOR REFERENCE:
 // const options = {
@@ -12,6 +18,23 @@ const cities = fs.readFileSync('./cities-test.txt', 'utf-8').split('\n');
 //   category: 'cta',
 //   offset: 0
 // }
+
+function decodeEntities(encodedString) {
+    var entityRegex = /&(nbsp|amp|quot|lt|gt);/g;
+    var entityTranslations = {
+        "nbsp": " ",
+        "amp" : "&",
+        "quot": "\"",
+        "lt"  : "<",
+        "gt"  : ">"
+    };
+    return encodedString.replace(entityRegex, function(match, entity) {
+        return entityTranslations[entity];
+    }).replace(/&#(\d+);/gi, function(match, numStr) {
+        var num = parseInt(numStr, 10);
+        return String.fromCharCode(num);
+    });
+}
 
 function getPromisesByCity(query, city, offset, resultsArray) {
   const options = {
@@ -37,9 +60,8 @@ function getPromisesByCity(query, city, offset, resultsArray) {
 
 function getPromiseHashByCity(query) {
   const promises = {};
-
-  _.each(cities, city => {
-    promises[city] = getPromisesByCity(query, city, 0, []);
+  _.each(subdomains, (info, subdomain) => {
+    promises[subdomain] = getPromisesByCity(query, subdomain, 0, []);
   });
   return promises;
 }
@@ -50,33 +72,42 @@ function getPostingsByCity(query) {
   return rsvp.hashSettled(promiseHashByCity);
 }
 
-// the above functions are the meat of searching craigslist, you can pretty much leave them as-is
-// except for changing the options object if necessary;
-// below are the functions that you can use or add to for specific cases of handling the results
+function indexEsDocuments(esDocs) {
+  const bulkOptions = {
+    body: esDocs,
+    refresh: 'true'
+  };
 
-function queryAllCitiesAndGetLinks(query) {
+  // esClient.bulk(bulkOptions, (error, response) => {
+  //
+  // });
+}
+
+function fetchAndIndexPostings(query) {
+  const esDocs = [];
   getPostingsByCity(query)
-    .then(postingsByCity => {
-      const links = {};
-      _.each(postingsByCity, (postings, city) => {
+    .then(postingsBySubdomain => {
+      _.each(postingsBySubdomain, (postings, subdomain) => {
+        console.log(postings)
         if (postings.state === 'fulfilled' && postings.value !== undefined && !_.isEmpty(postings.value)) {
+          const { city, location } = subdomains[subdomain];
           _.each(postings.value, posting => {
-            console.log(posting)
-            const link = {
+            const esDocument = {
+              city,
+              location,
+              price: parseInt(posting.price.slice(1)),
+              subdomain,
               title: posting.title,
-              price: posting.price,
               url: posting.url
             }
-            if (links[city]) {
-              links[city].push(link);
-            } else {
-              links[city] = [link];
-            }
+            console.log(`queueing document: subdomain '${subdomain}', title '${posting.title}'`);
+            esDocs.push({ index:  { _index: 'listings', _type: '_doc'} });
+            esDocs.push(esDocument);
           });
         }
       });
-      console.log(links)
+      indexEsDocuments(esDocs);
     });
 }
 
-queryAllCitiesAndGetLinks('vintage posters')
+fetchAndIndexPostings('vintage posters')
