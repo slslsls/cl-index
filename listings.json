@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "_doc": {
+      "properties": {
+        "city": { "type": "keyword" },
+        "latitude": { "type": "geo_point" },
+        "longitude": { "type": "geo_point" },
+        "price": { "type": "float" },
+        "title": { "type": "text" },
+        "url": { "type": "keyword" }
+      }
+    }
+  },
+  "settings": {
+    "number_of_replicas": 1,
+    "number_of_shards": 4
+  }
+}

@@ -4,7 +4,6 @@ const _ = require('lodash');
 const search = require('craigslist-searcher').search;
 // change the cities file below is necessary, as of now it's calling cities-test which is just a sublist of cities.txt
 const cities = fs.readFileSync('./cities-test.txt', 'utf-8').split('\n');
-const averages = {};
 
 // FOR REFERENCE:
 // const options = {
@@ -55,33 +54,6 @@ function getPostingsByCity(query) {
 // except for changing the options object if necessary;
 // below are the functions that you can use or add to for specific cases of handling the results
 
-function getAveragePriceByCity(query) {
-  getPostingsByCity(query)
-    .then(postingsByCity => {
-      const averagePrices = {};
-      const averagePricesOrdered = [];
-
-      _.each(postingsByCity, (postings, city) => {
-        if (postings.state === 'fulfilled' && postings.value !== undefined) {
-          let sumOfPrices = 0;
-          const numberOfPrices = postings.value.length;
-
-          _.each(postings.value, posting => {
-            const price = parseInt(posting.price.slice(1));
-            sumOfPrices += price;
-          });
-          averagePrices[city] = Math.round((sumOfPrices / numberOfPrices));
-        }
-      });
-      _.each(averagePrices, (ap, city) => {
-        averagePricesOrdered.push(ap);
-      });
-      averagePricesOrdered.sort();
-      console.log(averagePricesOrdered);
-      console.log(averagePrices);
-    });
-}
-
 function queryAllCitiesAndGetLinks(query) {
   getPostingsByCity(query)
     .then(postingsByCity => {
@@ -89,6 +61,7 @@ function queryAllCitiesAndGetLinks(query) {
       _.each(postingsByCity, (postings, city) => {
         if (postings.state === 'fulfilled' && postings.value !== undefined && !_.isEmpty(postings.value)) {
           _.each(postings.value, posting => {
+            console.log(posting)
             const link = {
               title: posting.title,
               price: posting.price,
