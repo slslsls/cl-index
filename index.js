@@ -7,46 +7,23 @@ const esClient = new es.Client({
   log: 'error'
 });
 const search = require('craigslist-searcher').search;
-// change the cities file below is necessary, as of now it's calling cities-test which is just a sublist of cities.txt
-// const cities = fs.readFileSync('./cl-subdomains-test.txt', 'utf-8').split('\n');
 const subdomains = JSON.parse(fs.readFileSync('./cl-subdomains-test.json', 'utf-8'));
+const category = 'ata';
 
-// FOR REFERENCE:
-// const options = {
-//   city: 'omaha',
-//   query: 'toyota',
-//   category: 'cta',
-//   offset: 0
-// }
-
-function decodeEntities(encodedString) {
-    var entityRegex = /&(nbsp|amp|quot|lt|gt);/g;
-    var entityTranslations = {
-        "nbsp": " ",
-        "amp" : "&",
-        "quot": "\"",
-        "lt"  : "<",
-        "gt"  : ">"
-    };
-    return encodedString.replace(entityRegex, function(match, entity) {
-        return entityTranslations[entity];
-    }).replace(/&#(\d+);/gi, function(match, numStr) {
-        var num = parseInt(numStr, 10);
-        return String.fromCharCode(num);
-    });
+function decodeAsciiApostrophes(string) {
+  return string.replace(/&#39;/g, '\'');
 }
 
 function getPromisesByCity(city, offset, resultsArray) {
   const options = {
     city,
     offset,
-    category: 'sss'
+    category
   };
 
   return search(options)
     .then(results => {
       if (results.length > 0) {
-        // console.log(`pushing ${results.length} results to array for city ${options.city}`);
         resultsArray.push(...results);
         return getPromisesByCity(city, offset + 120, resultsArray);
       }
@@ -81,7 +58,6 @@ function indexEsDocuments(esDocs) {
             body: esDocs,
             refresh: 'true'
           };
-          console.log('hi')
           esClient.bulk(bulkOptions);
         }
       });
@@ -102,10 +78,10 @@ function fetchAndIndexPostings() {
               location,
               price: parseInt(posting.price.slice(1)),
               subdomain,
-              title: posting.title,
+              title: decodeAsciiApostrophes(posting.title),
               url: posting.url
             };
-            console.log(`queueing document: subdomain '${subdomain}', title '${posting.title}'`);
+            console.log(`queueing document: subdomain '${esDocument.subdomain}', title '${esDocument.title}'`);
             esDocs.push({ index:  { _index: 'listings', _type: '_doc'} });
             esDocs.push(esDocument);
           });
@@ -117,6 +93,5 @@ function fetchAndIndexPostings() {
 
 fetchAndIndexPostings()
 
-
-// fix ascii (or html entities) in posting titles; either fix or remove the decodeEntities function above that you got from Stack Overflow
 // tests
+// figure out why it's not getting everything from craigslist
