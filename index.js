@@ -52,32 +52,20 @@ function decodeAsciiApostrophes(string) {
   return string.replace(/&#39;/g, '\'');
 }
 
-function searchEveryCategory(options) {
-  return new rsvp.Promise((resolve, reject) => {
-    const searches = [];
-    _.each(categories, cat => {
-      options.category = cat;
-      search(options)
-        .then(results => {
-          searches.push(...results)
-        })
-        .catch(reject);
-    });
-    resolve(searches);
-  });
-}
-
-function getPromisesByCity(city, offset, resultsArray) {
+function getPromisesByCity(city, categoryIndex, offset, resultsArray) {
   const options = {
     city,
-    offset
+    offset,
+    category: categories[categoryIndex]
   };
-
+  console.log(`Searching postings in '${city}' under category '${categories[categoryIndex]}'`)
   return search(options)
     .then(results => {
       if (results.length > 0) {
         resultsArray.push(...results);
-        return getPromisesByCity(city, offset + 120, resultsArray);
+        return getPromisesByCity(city, categoryIndex, offset + 120, resultsArray);
+      } else if (results.length == 0 && categoryIndex < categories.length - 1) {
+        return getPromisesByCity(city, categoryIndex + 1, offset + 120, resultsArray);
       }
       return resultsArray;
     })
@@ -89,7 +77,7 @@ function getPromisesByCity(city, offset, resultsArray) {
 function getPromiseHashByCity() {
   const promises = {};
   _.each(subdomains, (info, subdomain) => {
-    promises[subdomain] = getPromisesByCity(subdomain, 0, []);
+    promises[subdomain] = getPromisesByCity(subdomain, 0, 0, []);
   });
   return promises;
 }
