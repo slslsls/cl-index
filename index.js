@@ -9,16 +9,68 @@ const esClient = new es.Client({
 const search = require('craigslist-searcher').search;
 const subdomains = JSON.parse(fs.readFileSync('./cl-subdomains-test.json', 'utf-8'));
 const category = 'ata';
+const categories = [
+  'ata', // antiques
+  'ppa', // appliances
+  'ara', // arts+crafts
+  'sna', // atvs/utvs/snow
+  'pta', // auto parts
+  'baa', // baby+kids
+  'bar', // barter
+  'haa', // beauty+hlth
+  'bip', // bike parts
+  'bia', // bikes
+  'bpa', // boat parts
+  'bka', // books
+  'ema', // cds/dvd/vhs
+  'moa', // cell phones
+  'cla', // clothes+acc
+  'cba', // collectibles
+  'syp', // computer parts
+  'sya', // computers
+  'ela', // electronics
+  'gra', // farm+garden
+  'zip', // free stuff
+  'fua', // furniture
+  'gms', // garage sales
+  'foa', // general
+  'hva', // heavy equipment
+  'hsa', // household
+  'jwa', // jewelry
+  'maa', // materials
+  'mpa', // motorcycle parts
+  'msa', // music instr
+  'pha', // photo+video
+  'sga', // sporting
+  'tia', // tickets
+  'tla', // tools
+  'taa', // toys+games
+  'vga' // video gaming
+];
 
 function decodeAsciiApostrophes(string) {
   return string.replace(/&#39;/g, '\'');
 }
 
+function searchEveryCategory(options) {
+  return new rsvp.Promise((resolve, reject) => {
+    const searches = [];
+    _.each(categories, cat => {
+      options.category = cat;
+      search(options)
+        .then(results => {
+          searches.push(...results)
+        })
+        .catch(reject);
+    });
+    resolve(searches);
+  });
+}
+
 function getPromisesByCity(city, offset, resultsArray) {
   const options = {
     city,
-    offset,
-    category
+    offset
   };
 
   return search(options)
@@ -94,4 +146,3 @@ function fetchAndIndexPostings() {
 fetchAndIndexPostings()
 
 // tests
-// figure out why it's not getting everything from craigslist
