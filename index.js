@@ -39,7 +39,6 @@ function decodeEntities(encodedString) {
 function getPromisesByCity(query, city, offset, resultsArray) {
   const options = {
     city,
-    query,
     offset,
     category: 'ata',
   };
@@ -72,15 +71,22 @@ function getPostingsByCity(query) {
   return rsvp.hashSettled(promiseHashByCity);
 }
 
+function deleteIndex() {
+  esClient.indices.delete({ index: 'listings' });
+}
+
+function createIndex() {
+  const mappingsAndSettings = JSON.parse(fs.readFileSync('./listings.json', 'utf-8'));
+  esClient.indices.create({ index: 'listings', body: mappingsAndSettings });
+}
+
 function indexEsDocuments(esDocs) {
   const bulkOptions = {
     body: esDocs,
     refresh: 'true'
   };
 
-  // esClient.bulk(bulkOptions, (error, response) => {
-  //
-  // });
+  esClient.bulk(bulkOptions);
 }
 
 function fetchAndIndexPostings(query) {
@@ -106,8 +112,15 @@ function fetchAndIndexPostings(query) {
           });
         }
       });
+      deleteIndex();
+      createIndex();
       indexEsDocuments(esDocs);
     });
 }
 
-fetchAndIndexPostings('vintage posters')
+// fetchAndIndexPostings('vintage posters')
+
+
+// fix ascii (or html entities) in posting titles; either fix or remove the decodeEntities function above that you got from Stack Overflow
+// add logic to not duplicate documents (maybe just remove all documents from index before indexing)
+// tests
