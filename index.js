@@ -4,7 +4,7 @@ const rsvp = require('rsvp');
 const _ = require('lodash');
 const esClient = new es.Client({
   host: 'localhost:9200',
-  log: 'trace'
+  log: 'error'
 });
 const search = require('craigslist-searcher').search;
 // change the cities file below is necessary, as of now it's calling cities-test which is just a sublist of cities.txt
@@ -36,11 +36,11 @@ function decodeEntities(encodedString) {
     });
 }
 
-function getPromisesByCity(query, city, offset, resultsArray) {
+function getPromisesByCity(city, offset, resultsArray) {
   const options = {
     city,
     offset,
-    category: 'ata',
+    category: 'sss'
   };
 
   return search(options)
@@ -48,7 +48,7 @@ function getPromisesByCity(query, city, offset, resultsArray) {
       if (results.length > 0) {
         // console.log(`pushing ${results.length} results to array for city ${options.city}`);
         resultsArray.push(...results);
-        return getPromisesByCity(query, city, offset + 120, resultsArray);
+        return getPromisesByCity(city, offset + 120, resultsArray);
       }
       return resultsArray;
     })
@@ -57,44 +57,43 @@ function getPromisesByCity(query, city, offset, resultsArray) {
     });
 }
 
-function getPromiseHashByCity(query) {
+function getPromiseHashByCity() {
   const promises = {};
   _.each(subdomains, (info, subdomain) => {
-    promises[subdomain] = getPromisesByCity(query, subdomain, 0, []);
+    promises[subdomain] = getPromisesByCity(subdomain, 0, []);
   });
   return promises;
 }
 
-function getPostingsByCity(query) {
-  const promiseHashByCity = getPromiseHashByCity(query);
+function getAllPostingsByCity() {
+  const promiseHashByCity = getPromiseHashByCity();
 
   return rsvp.hashSettled(promiseHashByCity);
 }
 
-function deleteIndex() {
-  esClient.indices.delete({ index: 'listings' });
-}
-
-function createIndex() {
-  const mappingsAndSettings = JSON.parse(fs.readFileSync('./listings.json', 'utf-8'));
-  esClient.indices.create({ index: 'listings', body: mappingsAndSettings });
-}
-
 function indexEsDocuments(esDocs) {
-  const bulkOptions = {
-    body: esDocs,
-    refresh: 'true'
-  };
-
-  esClient.bulk(bulkOptions);
+  esClient.indices.delete({ index: 'listings' }, (err, res) => {
+    if (!err) {
+      const mappingsAndSettings = JSON.parse(fs.readFileSync('./listings.json', 'utf-8'));
+      esClient.indices.create({ index: 'listings', body: mappingsAndSettings }, (err, res) => {
+        if (!err) {
+          const bulkOptions = {
+            body: esDocs,
+            refresh: 'true'
+          };
+          console.log('hi')
+          esClient.bulk(bulkOptions);
+        }
+      });
+    }
+  });
 }
 
-function fetchAndIndexPostings(query) {
+function fetchAndIndexPostings() {
   const esDocs = [];
-  getPostingsByCity(query)
+  getAllPostingsByCity()
     .then(postingsBySubdomain => {
       _.each(postingsBySubdomain, (postings, subdomain) => {
-        console.log(postings)
         if (postings.state === 'fulfilled' && postings.value !== undefined && !_.isEmpty(postings.value)) {
           const { city, location } = subdomains[subdomain];
           _.each(postings.value, posting => {
@@ -105,22 +104,19 @@ function fetchAndIndexPostings(query) {
               subdomain,
               title: posting.title,
               url: posting.url
-            }
+            };
             console.log(`queueing document: subdomain '${subdomain}', title '${posting.title}'`);
             esDocs.push({ index:  { _index: 'listings', _type: '_doc'} });
             esDocs.push(esDocument);
           });
         }
       });
-      deleteIndex();
-      createIndex();
       indexEsDocuments(esDocs);
     });
 }
 
-// fetchAndIndexPostings('vintage posters')
+fetchAndIndexPostings()
 
 
 // fix ascii (or html entities) in posting titles; either fix or remove the decodeEntities function above that you got from Stack Overflow
-// add logic to not duplicate documents (maybe just remove all documents from index before indexing)
 // tests
