@@ -1358,24 +1358,24 @@
     }
   },
   "rmn": {
-    "city": "",
+    "city": "Rochester, Minnesota",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 44.0121,
+      "lon": -92.4802
     }
   },
   "marshall": {
-    "city": "",
+    "city": "Marshall, Minnesota",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 44.4484,
+      "lon": -95.7912
     }
   },
   "stcloud": {
-    "city": "",
+    "city": "St. Cloud, Minnesota",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 45.5579,
+      "lon": -94.1632
     }
   },
   "gulfport": {
@@ -1407,24 +1407,24 @@
     }
   },
   "northmiss": {
-    "city": "",
+    "city": "North Mississippi",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 34.2576,
+      "lon": -88.7034
     }
   },
   "natchez": {
-    "city": "",
+    "city": "Natchez, Mississippi",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 31.5604,
+      "lon": -91.4032
     }
   },
   "columbiamo": {
-    "city": "",
+    "city": "Jefferson City, Missouri",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 38.5767,
+      "lon": -92.1735
     }
   },
   "joplin": {
@@ -1442,24 +1442,24 @@
     }
   },
   "kirksville": {
-    "city": "",
+    "city": "Kirksville, Missouri",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 40.1948,
+      "lon": -92.5832
     }
   },
   "loz": {
-    "city": "",
+    "city": "Lake of the Ozarks, Missouri",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 38.1380,
+      "lon": -92.8104
     }
   },
   "semo": {
-    "city": "",
+    "city": "Southeast Missouri, Missouri",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 37.3149,
+      "lon": -89.5280
     }
   },
   "springfield": {
@@ -1470,17 +1470,17 @@
     }
   },
   "stjoseph": {
-    "city": "",
+    "city": "St. Joseph, Missouri",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 39.7675,
+      "lon": -94.8467
     }
   },
   "stlouis": {
-    "city": "",
+    "city": "St. Louis, Missouri",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 38.6270,
+      "lon": -90.1994
     }
   },
   "billings": {
@@ -1498,10 +1498,10 @@
     }
   },
   "butte": {
-    "city": "",
+    "city": "Butte, Montana",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.0038,
+      "lon": -112.5348
     }
   },
   "greatfalls": {
@@ -1512,17 +1512,17 @@
     }
   },
   "helena": {
-    "city": "",
+    "city": "Helena, Montana",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.5891,
+      "lon": -112.0391
     }
   },
   "kalispell": {
-    "city": "",
+    "city": "Kalispell, Montana",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 48.1920,
+      "lon": -114.3168
     }
   },
   "missoula": {
@@ -1533,10 +1533,10 @@
     }
   },
   "montana": {
-    "city": "",
+    "city": "Eastern Montana, Montana",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 48.4469,
+      "lon": -113.2231
     }
   },
   "grandisland": {
@@ -1554,10 +1554,10 @@
     }
   },
   "northplatte": {
-    "city": "",
+    "city": "North Platte, Nebraska",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 41.1403,
+      "lon": -100.7601
     }
   },
   "omaha": {
@@ -1568,17 +1568,17 @@
     }
   },
   "scottsbluff": {
-    "city": "",
+    "city": "Scottsbluff, Nebraska",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 41.8666,
+      "lon": -103.6672
     }
   },
   "elko": {
-    "city": "",
+    "city": "Elko, Nevada",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 40.8324,
+      "lon": -115.7631
     }
   },
   "lasvegas": {
@@ -1596,38 +1596,38 @@
     }
   },
   "nh": {
-    "city": "",
+    "city": "New Hampshire, New Hampshire",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 43.1939,
+      "lon": -71.5724
     }
   },
   "cnj": {
-    "city": "",
+    "city": "Central New Jersey, New Jersey",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 39.833851,
+      "lon": -74.871826
     }
   },
   "jerseyshore": {
-    "city": "",
+    "city": "Jersey Shore, New Jersey",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 39.9653,
+      "lon": -74.3118
     }
   },
   "newjersey": {
-    "city": "",
+    "city": "North Jersey, New Jersey",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 40.0583,
+      "lon": -74.4057
     }
   },
   "southjersey": {
-    "city": "",
+    "city": "South Jersey, New Jersey",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 40.0583,
+      "lon": -74.4057
     }
   },
   "albuquerque": {
@@ -1694,59 +1694,59 @@
     }
   },
   "catskills": {
-    "city": "",
+    "city": "Catskills, New York",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 42.2146,
+      "lon": -73.9595
     }
   },
   "chautauqua": {
-    "city": "",
+    "city": "Chautauqua, New York",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 42.2098,
+      "lon": -79.4668
     }
   },
   "elmira": {
-    "city": "",
+    "city": "Elmira, New York",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 42.0898,
+      "lon": -76.8077
     }
   },
   "fingerlakes": {
-    "city": "",
+    "city": "Finger Lakes, New York",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 42.7238,
+      "lon": -76.9297
     }
   },
   "glensfalls": {
-    "city": "",
+    "city": "Glens Falls, New York",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 43.3095,
+      "lon": -73.6440
     }
   },
   "hudsonvalley": {
-    "city": "",
+    "city": "Hudson Valley, New York",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 41.9209,
+      "lon": -73.9613
     }
   },
   "ithaca": {
-    "city": "",
+    "city": "Ithaca, New York",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 42.4440,
+      "lon": -76.5019
     }
   },
   "longisland": {
-    "city": "",
+    "city": "Long Island, New York",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 40.7891,
+      "lon": -73.1350
     }
   },
   "newyork": {
@@ -1757,31 +1757,31 @@
     }
   },
   "oneonta": {
-    "city": "",
+    "city": "Oneonta, New York",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 42.4529,
+      "lon": -75.0638
     }
   },
   "plattsburgh": {
-    "city": "",
+    "city": "Plattsburgh, New York",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 44.6995,
+      "lon": -73.4529
     }
   },
   "potsdam": {
-    "city": "",
+    "city": "Potsdam, New York",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 44.6698,
+      "lon": -74.9813
     }
   },
   "rochester": {
-    "city": "Rochester, Minnesota",
+    "city": "Rochester, New York",
     "location": {
-      "lat": 44.0121221,
-      "lon": -92.4801989
+      "lat": 43.1566,
+      "lon": -77.6088
     }
   },
   "syracuse": {
