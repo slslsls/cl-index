@@ -721,10 +721,10 @@
     }
   },
   "lewiston": {
-    "city": "",
+    "city": "Lewiston, Idaho",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.4004,
+      "lon": -117.0012
     }
   },
   "twinfalls": {
@@ -735,17 +735,17 @@
     }
   },
   "bn": {
-    "city": "",
+    "city": "Bloomington, Illinois",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 40.4842,
+      "lon": -88.9937
     }
   },
   "chambana": {
-    "city": "",
+    "city": "Chambana, Illinois",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 40.1164,
+      "lon": -88.2434
     }
   },
   "chicago": {
@@ -763,17 +763,17 @@
     }
   },
   "lasalle": {
-    "city": "",
+    "city": "La Salle, Illinois",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 41.3622,
+      "lon": -89.0418
     }
   },
   "mattoon": {
-    "city": "",
+    "city": "Mattoon, Illinois",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 39.4831,
+      "lon": -88.3728
     }
   },
   "peoria": {
@@ -791,17 +791,17 @@
     }
   },
   "carbondale": {
-    "city": "",
+    "city": "Carbondale, Illinois",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 37.7273,
+      "lon": -89.2168
     }
   },
   "springfieldil": {
-    "city": "",
+    "city": "Springfield, Illinois",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 39.7817,
+      "lon": -89.6501
     }
   },
   "quincy": {
@@ -847,10 +847,10 @@
     }
   },
   "tippecanoe": {
-    "city": "",
+    "city": "Tippecanoe, Indiana",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 40.3470,
+      "lon": -86.8220
     }
   },
   "muncie": {
@@ -861,10 +861,10 @@
     }
   },
   "richmondin": {
-    "city": "",
+    "city": "Richmond, Indiana",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 39.8289,
+      "lon": -84.8902
     }
   },
   "southbend": {
@@ -910,10 +910,10 @@
     }
   },
   "fortdodge": {
-    "city": "",
+    "city": "Fort Dodge, Iowa",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 42.4975,
+      "lon": -94.1680
     }
   },
   "iowacity": {
@@ -924,17 +924,17 @@
     }
   },
   "masoncity": {
-    "city": "",
+    "city": "Mason City, Iowa",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 43.1536,
+      "lon": -93.2010
     }
   },
   "quadcities": {
-    "city": "",
+    "city": "Quad Cities, Iowa",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 41.5236,
+      "lon": -90.5776
     }
   },
   "siouxcity": {
@@ -945,10 +945,10 @@
     }
   },
   "ottumwa": {
-    "city": "",
+    "city": "Ottumwa, Iowa",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 41.0160,
+      "lon": -92.4083
     }
   },
   "waterloo": {
@@ -966,17 +966,17 @@
     }
   },
   "ksu": {
-    "city": "",
+    "city": "Manhattan, Kansas",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 39.1836,
+      "lon": -96.5717
     }
   },
   "nwks": {
-    "city": "",
+    "city": "Northwest Kansas, Kansas",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 39.1290,
+      "lon": -94.6605
     }
   },
   "salina": {
@@ -987,17 +987,17 @@
     }
   },
   "seks": {
-    "city": "",
+    "city": "Southeast Kansas, Kansas",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 37.036064,
+      "lon": -95.620537
     }
   },
   "swks": {
-    "city": "",
+    "city": "Southwest Kansas, Kansas",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 37.9717,
+      "lon": -100.8727
     }
   },
   "topeka": {
@@ -1015,31 +1015,31 @@
     }
   },
   "bgky": {
-    "city": "",
+    "city": "Bowling Green, Kentucky",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 36.9685,
+      "lon": -86.4808
     }
   },
   "eastky": {
-    "city": "",
+    "city": "Eastern Kentucky, Kentucky",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 37.7353,
+      "lon": -84.2987
     }
   },
   "lexington": {
-    "city": "",
+    "city": "Lexington, Kentucky",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 38.0406,
+      "lon": -84.5037
     }
   },
   "louisville": {
-    "city": "",
+    "city": "Lousiville, Kentucky",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 38.2526647,
+      "lon": -85.7584557
     }
   },
   "owensboro": {
@@ -1050,10 +1050,10 @@
     }
   },
   "westky": {
-    "city": "",
+    "city": "Western Kentucky, Kentucky",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 36.9854,
+      "lon": -86.4561
     }
   },
   "batonrouge": {
@@ -1064,17 +1064,17 @@
     }
   },
   "cenla": {
-    "city": "",
+    "city": "Central Louisiana, Louisiana",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 30.5543,
+      "lon": -91.0369
     }
   },
   "houma": {
-    "city": "",
+    "city": "Houma, Louisiana",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 29.5958,
+      "lon": -90.7195
     }
   },
   "lafayette": {
@@ -1113,10 +1113,10 @@
     }
   },
   "maine": {
-    "city": "",
+    "city": "Maine, Maine",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 45.2538,
+      "lon": -69.4455
     }
   },
   "annapolis": {
@@ -1134,10 +1134,10 @@
     }
   },
   "easternshore": {
-    "city": "",
+    "city": "Eastern Shore, Maryland",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 38.2102,
+      "lon": -75.6848
     }
   },
   "frederick": {
@@ -1148,17 +1148,17 @@
     }
   },
   "smd": {
-    "city": "",
+    "city": "Southern Maryland, Maryland",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 38.4154,
+      "lon": -76.7041
     }
   },
   "westmd": {
-    "city": "",
+    "city": "Western Maryland, Maryland",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 39.6495,
+      "lon": -78.7636
     }
   },
   "boston": {
@@ -1169,24 +1169,24 @@
     }
   },
   "capecod": {
-    "city": "",
+    "city": "Cape Cod, Massachusetts",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 41.6688,
+      "lon": -70.2962
     }
   },
   "southcoast": {
-    "city": "",
+    "city": "South Coast, Massachusetts",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 41.6362,
+      "lon": -70.9342
     }
   },
   "westernmass": {
-    "city": "",
+    "city": "Western Massachussets, Massachusetts",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 42.1015,
+      "lon": -72.5898
     }
   },
   "worcester": {
@@ -1211,10 +1211,10 @@
     }
   },
   "centralmich": {
-    "city": "",
+    "city": "Central Michigan, Michigan",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 47.4071,
+      "lon": -88.2007
     }
   },
   "detroit": {
@@ -1239,17 +1239,17 @@
     }
   },
   "holland": {
-    "city": "",
+    "city": "Holland, Michigan",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 42.7875,
+      "lon": -86.1089
     }
   },
   "jxn": {
-    "city": "",
+    "city": "Jackson, Michigan",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 42.2459,
+      "lon": -84.4013
     }
   },
   "kalamazoo": {
@@ -1267,10 +1267,10 @@
     }
   },
   "monroemi": {
-    "city": "",
+    "city": "Monroe, Michigan",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 41.9164,
+      "lon": -83.3977
     }
   },
   "muskegon": {
@@ -1281,17 +1281,17 @@
     }
   },
   "nmi": {
-    "city": "",
+    "city": "Northern Michigan, Michigan",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.5596,
+      "lon": -87.4045
     }
   },
   "porthuron": {
-    "city": "",
+    "city": "Port Huron, Michigan",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 42.9709,
+      "lon": -82.4249
     }
   },
   "saginaw": {
@@ -1302,38 +1302,38 @@
     }
   },
   "swmi": {
-    "city": "",
+    "city": "Southwest Michigan, Michigan",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 42.1274,
+      "lon": -86.4257
     }
   },
   "thumb": {
-    "city": "",
+    "city": "The Thumb, Michigan",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 43.3720,
+      "lon": -83.5833
     }
   },
   "up": {
-    "city": "",
+    "city": "Upper Peninsula, Michigan",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.5375,
+      "lon": -87.3952
     }
   },
   "bemidji": {
-    "city": "",
+    "city": "Bemidji, Minnesota",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 47.4716,
+      "lon": -94.8827
     }
   },
   "brainerd": {
-    "city": "",
+    "city": "Brainerd, Minnesota",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.3527,
+      "lon": -94.2020
     }
   },
   "duluth": {
