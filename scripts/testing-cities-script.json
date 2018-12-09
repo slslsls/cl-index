@@ -350,17 +350,17 @@
     }
   },
   "susanville": {
-    "city": "",
+    "city": "Susanville, California",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 40.4163,
+      "lon": -120.6530
     }
   },
   "ventura": {
-    "city": "",
+    "city": "Ventura County, California",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 34.3705,
+      "lon": -119.1391
     }
   },
   "visalia": {
@@ -371,10 +371,10 @@
     }
   },
   "yubasutter": {
-    "city": "",
+    "city": "Yuba City, California",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 39.1404477,
+      "lon": -121.6169
     }
   },
   "boulder": {
@@ -385,10 +385,10 @@
     }
   },
   "cosprings": {
-    "city": "",
+    "city": "Colorado Springs, Colorado",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 38.8338816,
+      "lon": -104.8213634
     }
   },
   "denver": {
@@ -399,10 +399,10 @@
     }
   },
   "eastco": {
-    "city": "",
+    "city": "Eastern Colorado, Colorado",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 40.0149856,
+      "lon": -105.2705456
     }
   },
   "fortcollins": {
@@ -413,10 +413,10 @@
     }
   },
   "rockies": {
-    "city": "",
+    "city": "High Rockies, Colorado",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 40.3772,
+      "lon": -105.5217
     }
   },
   "pueblo": {
@@ -427,17 +427,17 @@
     }
   },
   "westslope": {
-    "city": "",
+    "city": "Western Slope, Colorado",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 37.9989,
+      "lon": -105.9100
     }
   },
   "newlondon": {
-    "city": "",
+    "city": "New London, Connecticut",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 41.3557,
+      "lon": -72.0995
     }
   },
   "hartford": {
@@ -455,24 +455,24 @@
     }
   },
   "nwct": {
-    "city": "",
+    "city": "Northwest Connecticut, Connecticut",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 41.8200,
+      "lon": -73.0855
     }
   },
   "delaware": {
-    "city": "",
+    "city": "Delaware, Delaware",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 38.9108,
+      "lon": -75.5277
     }
   },
   "washingtondc": {
-    "city": "",
+    "city": "Washington, District of Columbia",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 38.9071923,
+      "lon": -77.0368707
     }
   },
   "miami": {
@@ -483,17 +483,17 @@
     }
   },
   "daytona": {
-    "city": "",
+    "city": "Daytona Beach, Florida",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 29.2108147,
+      "lon": -81.0228331
     }
   },
   "keys": {
-    "city": "",
+    "city": "Florida Keys, Florida",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 25.086515,
+      "lon": -80.447281
     }
   },
   "fortlauderdale": {
@@ -518,10 +518,10 @@
     }
   },
   "cfl": {
-    "city": "",
+    "city": "Heartland Florida, Florida",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 27.2142,
+      "lon": -81.7787
     }
   },
   "jacksonville": {
@@ -539,10 +539,10 @@
     }
   },
   "lakecity": {
-    "city": "",
+    "city": "North Central Florida, Florida",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 28.538336,
+      "lon": -81.379234
     }
   },
   "ocala": {
@@ -553,10 +553,10 @@
     }
   },
   "okaloosa": {
-    "city": "",
+    "city": "Okaloosa, Florida",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 30.5773,
+      "lon": -86.6611
     }
   },
   "orlando": {
@@ -588,17 +588,17 @@
     }
   },
   "spacecoast": {
-    "city": "",
+    "city": "Space Coast, Florida",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 28.3542,
+      "lon": -80.7260
     }
   },
   "staugustine": {
-    "city": "",
+    "city": "St. Augustine, Florida",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 29.9012,
+      "lon": -81.3124
     }
   },
   "tallahassee": {
@@ -616,24 +616,24 @@
     }
   },
   "treasure": {
-    "city": "",
+    "city": "Treasure Coast, Florida",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 27.7692,
+      "lon": -82.7690
     }
   },
   "albanyga": {
-    "city": "",
+    "city": "Albany, Georgia",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 31.5785074,
+      "lon": -84.15574099999999
     }
   },
   "athensga": {
-    "city": "",
+    "city": "Athens, Georgia",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 33.9519347,
+      "lon": -83.357567
     }
   },
   "atlanta": {
@@ -644,24 +644,24 @@
     }
   },
   "augusta": {
-    "city": "",
+    "city": "Augusta, Georgia",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 33.4734978,
+      "lon": -82.0105148
     }
   },
   "brunswick": {
-    "city": "",
+    "city": "Brunswick, Georgia",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 31.1500,
+      "lon": -81.4915
     }
   },
   "columbusga": {
-    "city": "",
+    "city": "Columbus, Georgia",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 32.4609764,
+      "lon": -84.9877094
     }
   },
   "macon": {
@@ -672,10 +672,10 @@
     }
   },
   "nwga": {
-    "city": "",
+    "city": "Northwest Georgia, Georgia",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 34.166080,
+      "lon": -84.800613
     }
   },
   "savannah": {
@@ -686,10 +686,10 @@
     }
   },
   "statesboro": {
-    "city": "",
+    "city": "Statesboro, Georgia",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 32.4488,
+      "lon": -81.7832
     }
   },
   "valdosta": {
@@ -707,17 +707,17 @@
     }
   },
   "boise": {
-    "city": "",
+    "city": "Boise City, Idaho",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 43.6187102,
+      "lon": -116.2146068
     }
   },
   "eastidaho": {
-    "city": "",
+    "city": "East Idaho, Idaho",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 42.5836,
+      "lon": -112.1430
     }
   },
   "lewiston": {
