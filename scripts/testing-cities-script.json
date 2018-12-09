@@ -1,0 +1,2900 @@
+{
+  "auburn": {
+    "city": "Auburn, Alabama",
+    "location": {
+      "lat": 32.6098566,
+      "lon": -85.48078249999999
+    }
+  },
+  "bham": {
+    "city": "Birmingham, Alabama",
+    "location": {
+      "lat": 33.5206608,
+      "lon": -86.80248999999999
+    }
+  },
+  "dothan": {
+    "city": "Dothan, Alabama",
+    "location": {
+      "lat": 31.2232313,
+      "lon": -85.3904888
+    }
+  },
+  "shoals": {
+    "city": "Florence / Muscle Shoals, Alabama",
+    "location": {
+      "lat": 34.79981,
+      "lon": -87.677251
+    }
+  },
+  "gadsden": {
+    "city": "Gadsden, Alabama",
+    "location": {
+      "lat": 34.0143,
+      "lon": -86.0066
+    }
+  },
+  "huntsville": {
+    "city": "Huntsville, Texas",
+    "location": {
+      "lat": 30.7235263,
+      "lon": -95.55077709999999
+    }
+  },
+  "mobile": {
+    "city": "Mobile, Alabama",
+    "location": {
+      "lat": 30.6953657,
+      "lon": -88.0398912
+    }
+  },
+  "montgomery": {
+    "city": "Montgomery, Alabama",
+    "location": {
+      "lat": 32.3668052,
+      "lon": -86.2999689
+    }
+  },
+  "tuscaloosa": {
+    "city": "Tuscaloosa, Alabama",
+    "location": {
+      "lat": 33.2098407,
+      "lon": -87.56917349999999
+    }
+  },
+  "anchorage": {
+    "city": "Anchorage, Alaska",
+    "location": {
+      "lat": 61.2180556,
+      "lon": -149.9002778
+    }
+  },
+  "fairbanks": {
+    "city": "Fairbanks, Alaska",
+    "location": {
+      "lat": 64.8378,
+      "lon": -147.7164
+    }
+  },
+  "kenai": {
+    "city": "Kenai, Alaska",
+    "location": {
+      "lat": 60.5544,
+      "lon": -151.2583
+    }
+  },
+  "juneau": {
+    "city": "Juneau, Alaska",
+    "location": {
+      "lat": 58.3019,
+      "lon": -134.4197
+    }
+  },
+  "flagstaff": {
+    "city": "Flagstaff, Arizona",
+    "location": {
+      "lat": 35.1982836,
+      "lon": -111.651302
+    }
+  },
+  "mohave": {
+    "city": "Mohave, Arizona",
+    "location": {
+      "lat": 35.2143,
+      "lon": -113.7633
+    }
+  },
+  "phoenix": {
+    "city": "Phoenix, Arizona",
+    "location": {
+      "lat": 33.4483771,
+      "lon": -112.0740373
+    }
+  },
+  "prescott": {
+    "city": "Prescott, Arizona",
+    "location": {
+      "lat": 34.5400242,
+      "lon": -112.4685025
+    }
+  },
+  "showlow": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "sierravista": {
+    "city": "Sierra Vista, Arizona",
+    "location": {
+      "lat": 31.5455001,
+      "lon": -110.2772856
+    }
+  },
+  "tucson": {
+    "city": "Tucson, Arizona",
+    "location": {
+      "lat": 32.2217429,
+      "lon": -110.926479
+    }
+  },
+  "yuma": {
+    "city": "Yuma, Arizona",
+    "location": {
+      "lat": 32.6926512,
+      "lon": -114.6276916
+    }
+  },
+  "fayar": {
+    "city": "Fayetteville, Arkansas",
+    "location": {
+      "lat": 36.0822,
+      "lon": -94.1719
+    }
+  },
+  "fortsmith": {
+    "city": "Fort Smith, Arkansas",
+    "location": {
+      "lat": 35.3859242,
+      "lon": -94.39854749999999
+    }
+  },
+  "jonesboro": {
+    "city": "Jonesboro, Arkansas",
+    "location": {
+      "lat": 35.84229670000001,
+      "lon": -90.704279
+    }
+  },
+  "littlerock": {
+    "city": "Little Rock, Arkansas",
+    "location": {
+      "lat": 34.7464809,
+      "lon": -92.28959479999999
+    }
+  },
+  "texarkana": {
+    "city": "Texarkana, Texas",
+    "location": {
+      "lat": 33.425125,
+      "lon": -94.04768820000001
+    }
+  },
+  "bakersfield": {
+    "city": "Bakersfield, California",
+    "location": {
+      "lat": 35.3732921,
+      "lon": -119.0187125
+    }
+  },
+  "chico": {
+    "city": "Chico, California",
+    "location": {
+      "lat": 39.7284944,
+      "lon": -121.8374777
+    }
+  },
+  "fresno": {
+    "city": "Fresno, California",
+    "location": {
+      "lat": 36.7468422,
+      "lon": -119.7725868
+    }
+  },
+  "goldcountry": {
+    "city": "Goldcountry, California",
+    "location": {
+      "lat": 39.4632,
+      "lon": -121.9911
+    }
+  },
+  "hanford": {
+    "city": "Hanford, California",
+    "location": {
+      "lat": 36.3274502,
+      "lon": -119.6456844
+    }
+  },
+  "humboldt": {
+    "city": "Humboldt County, California",
+    "location": {
+      "lat": 40.7450,
+      "lon": -123.8695
+    }
+  },
+  "imperial": {
+    "city": "Imperial County, California",
+    "location": {
+      "lat": 33.0114,
+      "lon": -115.4734
+    }
+  },
+  "inlandempire": {
+    "city": "Inland Empire, California",
+    "location": {
+      "lat": 34.9592,
+      "lon": -116.4194
+    }
+  },
+  "losangeles": {
+    "city": "Los Angeles, California",
+    "location": {
+      "lat": 34.0522342,
+      "lon": -118.2436849
+    }
+  },
+  "mendocino": {
+    "city": "Mendocino County, California",
+    "location": {
+      "lat": 39.5500,
+      "lon": -123.4384
+    }
+  },
+  "merced": {
+    "city": "Merced, California",
+    "location": {
+      "lat": 37.3021632,
+      "lon": -120.4829677
+    }
+  },
+  "modesto": {
+    "city": "Modesto, California",
+    "location": {
+      "lat": 37.63909719999999,
+      "lon": -120.9968782
+    }
+  },
+  "monterey": {
+    "city": "Monterey Bay, California",
+    "location": {
+      "lat": 36.8007,
+      "lon": -121.9473
+    }
+  },
+  "orangecounty": {
+    "city": "Orange County, California",
+    "location": {
+      "lat": 33.7175,
+      "lon": -117.8311
+    }
+  },
+  "palmsprings": {
+    "city": "Palm Springs, California",
+    "location": {
+      "lat": 33.8302961,
+      "lon": -116.5452921
+    }
+  },
+  "redding": {
+    "city": "Redding, California",
+    "location": {
+      "lat": 40.5865396,
+      "lon": -122.3916754
+    }
+  },
+  "sacramento": {
+    "city": "Sacramento, California",
+    "location": {
+      "lat": 38.5815719,
+      "lon": -121.4943996
+    }
+  },
+  "sandiego": {
+    "city": "San Diego, California",
+    "location": {
+      "lat": 32.715738,
+      "lon": -117.1610838
+    }
+  },
+  "sfbay": {
+    "city": "San Francisco Bay, California",
+    "location": {
+      "lat": 37.8272,
+      "lon": -122.2913
+    }
+  },
+  "slo": {
+    "city": "San Luis Obispo, California",
+    "location": {
+      "lat": 35.2828,
+      "lon": -120.6596
+    }
+  },
+  "santabarbara": {
+    "city": "Santa Barbara, California",
+    "location": {
+      "lat": 34.4208305,
+      "lon": -119.6981901
+    }
+  },
+  "santamaria": {
+    "city": "Santa Maria, California",
+    "location": {
+      "lat": 34.9530337,
+      "lon": -120.4357191
+    }
+  },
+  "siskiyou": {
+    "city": "Siskiyou County, California",
+    "location": {
+      "lat": 41.7743,
+      "lon": -122.5770
+    }
+  },
+  "stockton": {
+    "city": "Stockton, California",
+    "location": {
+      "lat": 37.9577016,
+      "lon": -121.2907796
+    }
+  },
+  "susanville": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "ventura": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "visalia": {
+    "city": "Visalia, California",
+    "location": {
+      "lat": 36.3302284,
+      "lon": -119.2920585
+    }
+  },
+  "yubasutter": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "boulder": {
+    "city": "Boulder, Colorado",
+    "location": {
+      "lat": 40.0149856,
+      "lon": -105.2705456
+    }
+  },
+  "cosprings": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "denver": {
+    "city": "Denver, Colorado",
+    "location": {
+      "lat": 39.7392358,
+      "lon": -104.990251
+    }
+  },
+  "eastco": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "fortcollins": {
+    "city": "Fort Collins, Colorado",
+    "location": {
+      "lat": 40.5852602,
+      "lon": -105.084423
+    }
+  },
+  "rockies": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "pueblo": {
+    "city": "Pueblo, Colorado",
+    "location": {
+      "lat": 38.2544472,
+      "lon": -104.6091409
+    }
+  },
+  "westslope": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "newlondon": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "hartford": {
+    "city": "Hartford, Connecticut",
+    "location": {
+      "lat": 41.76371109999999,
+      "lon": -72.6850932
+    }
+  },
+  "newhaven": {
+    "city": "New Haven, Connecticut",
+    "location": {
+      "lat": 41.308274,
+      "lon": -72.9278835
+    }
+  },
+  "nwct": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "delaware": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "washingtondc": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "miami": {
+    "city": "Miami, Florida",
+    "location": {
+      "lat": 25.7616798,
+      "lon": -80.1917902
+    }
+  },
+  "daytona": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "keys": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "fortlauderdale": {
+    "city": "Fort Lauderdale, Florida",
+    "location": {
+      "lat": 26.1224386,
+      "lon": -80.13731740000001
+    }
+  },
+  "fortmyers": {
+    "city": "Fort Myers, Florida",
+    "location": {
+      "lat": 26.640628,
+      "lon": -81.8723084
+    }
+  },
+  "gainesville": {
+    "city": "Gainesville, Florida",
+    "location": {
+      "lat": 29.6516344,
+      "lon": -82.32482619999999
+    }
+  },
+  "cfl": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "jacksonville": {
+    "city": "Jacksonville, North Carolina",
+    "location": {
+      "lat": 34.7540524,
+      "lon": -77.4302414
+    }
+  },
+  "lakeland": {
+    "city": "Lakeland, Florida",
+    "location": {
+      "lat": 28.0394654,
+      "lon": -81.9498042
+    }
+  },
+  "lakecity": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "ocala": {
+    "city": "Ocala, Florida",
+    "location": {
+      "lat": 29.1871986,
+      "lon": -82.14009229999999
+    }
+  },
+  "okaloosa": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "orlando": {
+    "city": "Orlando, Florida",
+    "location": {
+      "lat": 28.5383355,
+      "lon": -81.3792365
+    }
+  },
+  "panamacity": {
+    "city": "Panama City, Florida",
+    "location": {
+      "lat": 30.1588129,
+      "lon": -85.6602058
+    }
+  },
+  "pensacola": {
+    "city": "Pensacola, Florida",
+    "location": {
+      "lat": 30.42130899999999,
+      "lon": -87.2169149
+    }
+  },
+  "sarasota": {
+    "city": "Sarasota, Florida",
+    "location": {
+      "lat": 27.3364347,
+      "lon": -82.53065269999999
+    }
+  },
+  "spacecoast": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "staugustine": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "tallahassee": {
+    "city": "Tallahassee, Florida",
+    "location": {
+      "lat": 30.4382559,
+      "lon": -84.28073289999999
+    }
+  },
+  "tampa": {
+    "city": "Tampa, Florida",
+    "location": {
+      "lat": 27.950575,
+      "lon": -82.4571776
+    }
+  },
+  "treasure": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "albanyga": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "athensga": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "atlanta": {
+    "city": "Atlanta, Georgia",
+    "location": {
+      "lat": 33.7489954,
+      "lon": -84.3879824
+    }
+  },
+  "augusta": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "brunswick": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "columbusga": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "macon": {
+    "city": "Macon, Georgia",
+    "location": {
+      "lat": 32.8406946,
+      "lon": -83.6324022
+    }
+  },
+  "nwga": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "savannah": {
+    "city": "Savannah, Georgia",
+    "location": {
+      "lat": 32.0835407,
+      "lon": -81.09983419999999
+    }
+  },
+  "statesboro": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "valdosta": {
+    "city": "Valdosta, Georgia",
+    "location": {
+      "lat": 30.8327022,
+      "lon": -83.2784851
+    }
+  },
+  "honolulu": {
+    "city": "Honolulu, Hawaii",
+    "location": {
+      "lat": 21.3069444,
+      "lon": -157.8583333
+    }
+  },
+  "boise": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "eastidaho": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "lewiston": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "twinfalls": {
+    "city": "Twin Falls, Idaho",
+    "location": {
+      "lat": 42.5629668,
+      "lon": -114.4608711
+    }
+  },
+  "bn": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "chambana": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "chicago": {
+    "city": "Chicago, Illinois",
+    "location": {
+      "lat": 41.8781136,
+      "lon": -87.6297982
+    }
+  },
+  "decatur": {
+    "city": "Decatur, Alabama",
+    "location": {
+      "lat": 34.6059253,
+      "lon": -86.9833417
+    }
+  },
+  "lasalle": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "mattoon": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "peoria": {
+    "city": "Peoria, Illinois",
+    "location": {
+      "lat": 40.6936488,
+      "lon": -89.5889864
+    }
+  },
+  "rockford": {
+    "city": "Rockford, Illinois",
+    "location": {
+      "lat": 42.2711311,
+      "lon": -89.0939952
+    }
+  },
+  "carbondale": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "springfieldil": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "quincy": {
+    "city": "Quincy, Illinois",
+    "location": {
+      "lat": 39.9356016,
+      "lon": -91.4098726
+    }
+  },
+  "bloomington": {
+    "city": "Bloomington, Illinois",
+    "location": {
+      "lat": 40.4842027,
+      "lon": -88.99368729999999
+    }
+  },
+  "evansville": {
+    "city": "Evansville, Indiana",
+    "location": {
+      "lat": 37.9715592,
+      "lon": -87.5710898
+    }
+  },
+  "fortwayne": {
+    "city": "Fort Wayne, Indiana",
+    "location": {
+      "lat": 41.079273,
+      "lon": -85.1393513
+    }
+  },
+  "indianapolis": {
+    "city": "Indianapolis, Indiana",
+    "location": {
+      "lat": 39.768403,
+      "lon": -86.158068
+    }
+  },
+  "kokomo": {
+    "city": "Kokomo, Indiana",
+    "location": {
+      "lat": 40.486427,
+      "lon": -86.13360329999999
+    }
+  },
+  "tippecanoe": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "muncie": {
+    "city": "Muncie, Indiana",
+    "location": {
+      "lat": 40.1933767,
+      "lon": -85.3863599
+    }
+  },
+  "richmondin": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "southbend": {
+    "city": "South Bend, Indiana",
+    "location": {
+      "lat": 41.6763545,
+      "lon": -86.25198979999999
+    }
+  },
+  "terrehaute": {
+    "city": "Terre Haute, Indiana",
+    "location": {
+      "lat": 39.4667034,
+      "lon": -87.41390919999999
+    }
+  },
+  "ames": {
+    "city": "Ames, Iowa",
+    "location": {
+      "lat": 42.034722,
+      "lon": -93.61999999999999
+    }
+  },
+  "cedarrapids": {
+    "city": "Cedar Rapids, Iowa",
+    "location": {
+      "lat": 41.9778795,
+      "lon": -91.6656232
+    }
+  },
+  "desmoines": {
+    "city": "Des Moines, Iowa",
+    "location": {
+      "lat": 41.6005448,
+      "lon": -93.6091064
+    }
+  },
+  "dubuque": {
+    "city": "Dubuque, Iowa",
+    "location": {
+      "lat": 42.5005583,
+      "lon": -90.66457179999999
+    }
+  },
+  "fortdodge": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "iowacity": {
+    "city": "Iowa City, Iowa",
+    "location": {
+      "lat": 41.6611277,
+      "lon": -91.5301683
+    }
+  },
+  "masoncity": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "quadcities": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "siouxcity": {
+    "city": "Sioux City, Iowa",
+    "location": {
+      "lat": 42.4999942,
+      "lon": -96.40030689999999
+    }
+  },
+  "ottumwa": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "waterloo": {
+    "city": "Waterloo, Iowa",
+    "location": {
+      "lat": 42.492786,
+      "lon": -92.34257749999999
+    }
+  },
+  "lawrence": {
+    "city": "Lawrence, Indiana",
+    "location": {
+      "lat": 39.8386516,
+      "lon": -86.0252612
+    }
+  },
+  "ksu": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "nwks": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "salina": {
+    "city": "Salina, Kansas",
+    "location": {
+      "lat": 38.8402805,
+      "lon": -97.61142369999999
+    }
+  },
+  "seks": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "swks": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "topeka": {
+    "city": "Topeka, Kansas",
+    "location": {
+      "lat": 39.0558235,
+      "lon": -95.68901849999999
+    }
+  },
+  "wichita": {
+    "city": "Wichita, Kansas",
+    "location": {
+      "lat": 37.688889,
+      "lon": -97.336111
+    }
+  },
+  "bgky": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "eastky": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "lexington": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "louisville": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "owensboro": {
+    "city": "Owensboro, Kentucky",
+    "location": {
+      "lat": 37.7719074,
+      "lon": -87.1111676
+    }
+  },
+  "westky": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "batonrouge": {
+    "city": "Baton Rouge, Louisiana",
+    "location": {
+      "lat": 30.4582829,
+      "lon": -91.1403196
+    }
+  },
+  "cenla": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "houma": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "lafayette": {
+    "city": "Lafayette, Indiana",
+    "location": {
+      "lat": 40.4167022,
+      "lon": -86.87528689999999
+    }
+  },
+  "lakecharles": {
+    "city": "Lake Charles, Louisiana",
+    "location": {
+      "lat": 30.2265949,
+      "lon": -93.2173758
+    }
+  },
+  "monroe": {
+    "city": "Monroe, Louisiana",
+    "location": {
+      "lat": 32.5093109,
+      "lon": -92.1193012
+    }
+  },
+  "neworleans": {
+    "city": "New Orleans, Louisiana",
+    "location": {
+      "lat": 29.95106579999999,
+      "lon": -90.0715323
+    }
+  },
+  "shreveport": {
+    "city": "Shreveport, Louisiana",
+    "location": {
+      "lat": 32.5251516,
+      "lon": -93.7501789
+    }
+  },
+  "maine": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "annapolis": {
+    "city": "Annapolis, Maryland",
+    "location": {
+      "lat": 38.9784453,
+      "lon": -76.4921829
+    }
+  },
+  "baltimore": {
+    "city": "Baltimore, Maryland",
+    "location": {
+      "lat": 39.2903848,
+      "lon": -76.6121893
+    }
+  },
+  "easternshore": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "frederick": {
+    "city": "Frederick, Maryland",
+    "location": {
+      "lat": 39.41426879999999,
+      "lon": -77.4105409
+    }
+  },
+  "smd": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "westmd": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "boston": {
+    "city": "Boston, Massachusetts",
+    "location": {
+      "lat": 42.3600825,
+      "lon": -71.0588801
+    }
+  },
+  "capecod": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "southcoast": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "westernmass": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "worcester": {
+    "city": "Worcester, Massachusetts",
+    "location": {
+      "lat": 42.2625932,
+      "lon": -71.8022934
+    }
+  },
+  "annarbor": {
+    "city": "Ann Arbor, Michigan",
+    "location": {
+      "lat": 42.2808256,
+      "lon": -83.7430378
+    }
+  },
+  "battlecreek": {
+    "city": "Battle Creek, Michigan",
+    "location": {
+      "lat": 42.3211522,
+      "lon": -85.17971419999999
+    }
+  },
+  "centralmich": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "detroit": {
+    "city": "Detroit, Michigan",
+    "location": {
+      "lat": 42.331427,
+      "lon": -83.0457538
+    }
+  },
+  "flint": {
+    "city": "Flint, Michigan",
+    "location": {
+      "lat": 43.0125274,
+      "lon": -83.6874562
+    }
+  },
+  "grandrapids": {
+    "city": "Grand Rapids, Michigan",
+    "location": {
+      "lat": 42.9633599,
+      "lon": -85.6680863
+    }
+  },
+  "holland": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "jxn": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "kalamazoo": {
+    "city": "Kalamazoo, Michigan",
+    "location": {
+      "lat": 42.2917069,
+      "lon": -85.5872286
+    }
+  },
+  "lansing": {
+    "city": "Lansing, Michigan",
+    "location": {
+      "lat": 42.732535,
+      "lon": -84.5555347
+    }
+  },
+  "monroemi": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "muskegon": {
+    "city": "Muskegon, Michigan",
+    "location": {
+      "lat": 43.2341813,
+      "lon": -86.24839209999999
+    }
+  },
+  "nmi": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "porthuron": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "saginaw": {
+    "city": "Saginaw, Michigan",
+    "location": {
+      "lat": 43.4194699,
+      "lon": -83.9508068
+    }
+  },
+  "swmi": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "thumb": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "up": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "bemidji": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "brainerd": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "duluth": {
+    "city": "Duluth, Minnesota",
+    "location": {
+      "lat": 46.78667189999999,
+      "lon": -92.1004852
+    }
+  },
+  "mankato": {
+    "city": "Mankato, Minnesota",
+    "location": {
+      "lat": 44.1635775,
+      "lon": -93.99939959999999
+    }
+  },
+  "minneapolis": {
+    "city": "Minneapolis, Minnesota",
+    "location": {
+      "lat": 44.977753,
+      "lon": -93.2650108
+    }
+  },
+  "rmn": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "marshall": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "stcloud": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "gulfport": {
+    "city": "Gulfport, Mississippi",
+    "location": {
+      "lat": 30.3674198,
+      "lon": -89.0928155
+    }
+  },
+  "hattiesburg": {
+    "city": "Hattiesburg, Mississippi",
+    "location": {
+      "lat": 31.3271189,
+      "lon": -89.29033919999999
+    }
+  },
+  "jackson": {
+    "city": "Jackson, Tennessee",
+    "location": {
+      "lat": 35.6145169,
+      "lon": -88.81394689999999
+    }
+  },
+  "meridian": {
+    "city": "Meridian, Mississippi",
+    "location": {
+      "lat": 32.3643098,
+      "lon": -88.703656
+    }
+  },
+  "northmiss": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "natchez": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "columbiamo": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "joplin": {
+    "city": "Joplin, Missouri",
+    "location": {
+      "lat": 37.08422710000001,
+      "lon": -94.51328099999999
+    }
+  },
+  "kansascity": {
+    "city": "Kansas City, Kansas",
+    "location": {
+      "lat": 39.114053,
+      "lon": -94.6274636
+    }
+  },
+  "kirksville": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "loz": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "semo": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "springfield": {
+    "city": "Springfield, Ohio",
+    "location": {
+      "lat": 39.9242266,
+      "lon": -83.8088171
+    }
+  },
+  "stjoseph": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "stlouis": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "billings": {
+    "city": "Billings, Montana",
+    "location": {
+      "lat": 45.7832856,
+      "lon": -108.5006904
+    }
+  },
+  "bozeman": {
+    "city": "Bozeman, Montana",
+    "location": {
+      "lat": 45.6769979,
+      "lon": -111.0429339
+    }
+  },
+  "butte": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "greatfalls": {
+    "city": "Great Falls, Montana",
+    "location": {
+      "lat": 47.4941836,
+      "lon": -111.2833449
+    }
+  },
+  "helena": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "kalispell": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "missoula": {
+    "city": "Missoula, Montana",
+    "location": {
+      "lat": 46.87871759999999,
+      "lon": -113.996586
+    }
+  },
+  "montana": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "grandisland": {
+    "city": "Grand Island, Nebraska",
+    "location": {
+      "lat": 40.9263957,
+      "lon": -98.3420118
+    }
+  },
+  "lincoln": {
+    "city": "Lincoln, California",
+    "location": {
+      "lat": 38.891565,
+      "lon": -121.2930079
+    }
+  },
+  "northplatte": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "omaha": {
+    "city": "Omaha, Nebraska",
+    "location": {
+      "lat": 41.2523634,
+      "lon": -95.99798829999999
+    }
+  },
+  "scottsbluff": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "elko": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "lasvegas": {
+    "city": "Las Vegas, Nevada",
+    "location": {
+      "lat": 36.1699412,
+      "lon": -115.1398296
+    }
+  },
+  "reno": {
+    "city": "Reno, Nevada",
+    "location": {
+      "lat": 39.5296329,
+      "lon": -119.8138027
+    }
+  },
+  "nh": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "cnj": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "jerseyshore": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "newjersey": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "southjersey": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "albuquerque": {
+    "city": "Albuquerque, New Mexico",
+    "location": {
+      "lat": 35.0853336,
+      "lon": -106.6055534
+    }
+  },
+  "clovis": {
+    "city": "Clovis, New Mexico",
+    "location": {
+      "lat": 34.4047987,
+      "lon": -103.2052272
+    }
+  },
+  "farmington": {
+    "city": "Farmington, New Mexico",
+    "location": {
+      "lat": 36.72805830000001,
+      "lon": -108.2186856
+    }
+  },
+  "lascruces": {
+    "city": "Las Cruces, New Mexico",
+    "location": {
+      "lat": 32.3199396,
+      "lon": -106.7636538
+    }
+  },
+  "roswell": {
+    "city": "Roswell, New Mexico",
+    "location": {
+      "lat": 33.3942655,
+      "lon": -104.5230242
+    }
+  },
+  "santafe": {
+    "city": "Santa Fe, New Mexico",
+    "location": {
+      "lat": 35.6869752,
+      "lon": -105.937799
+    }
+  },
+  "albany": {
+    "city": "Albany, Oregon",
+    "location": {
+      "lat": 44.6365107,
+      "lon": -123.1059282
+    }
+  },
+  "binghamton": {
+    "city": "Binghamton, New York",
+    "location": {
+      "lat": 42.09868669999999,
+      "lon": -75.91797380000001
+    }
+  },
+  "buffalo": {
+    "city": "Buffalo, New York",
+    "location": {
+      "lat": 42.88644679999999,
+      "lon": -78.8783689
+    }
+  },
+  "catskills": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "chautauqua": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "elmira": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "fingerlakes": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "glensfalls": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "hudsonvalley": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "ithaca": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "longisland": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "newyork": {
+    "city": "New York, New York",
+    "location": {
+      "lat": 40.7127837,
+      "lon": -74.0059413
+    }
+  },
+  "oneonta": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "plattsburgh": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "potsdam": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "rochester": {
+    "city": "Rochester, Minnesota",
+    "location": {
+      "lat": 44.0121221,
+      "lon": -92.4801989
+    }
+  },
+  "syracuse": {
+    "city": "Syracuse, New York",
+    "location": {
+      "lat": 43.0481221,
+      "lon": -76.14742439999999
+    }
+  },
+  "twintiers": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "utica": {
+    "city": "Utica, New York",
+    "location": {
+      "lat": 43.100903,
+      "lon": -75.232664
+    }
+  },
+  "watertown": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "asheville": {
+    "city": "Asheville, North Carolina",
+    "location": {
+      "lat": 35.5950581,
+      "lon": -82.5514869
+    }
+  },
+  "boone": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "charlotte": {
+    "city": "Charlotte, North Carolina",
+    "location": {
+      "lat": 35.2270869,
+      "lon": -80.8431267
+    }
+  },
+  "eastnc": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "fayetteville": {
+    "city": "Fayetteville, Arkansas",
+    "location": {
+      "lat": 36.0625795,
+      "lon": -94.1574263
+    }
+  },
+  "greensboro": {
+    "city": "Greensboro, North Carolina",
+    "location": {
+      "lat": 36.0726354,
+      "lon": -79.7919754
+    }
+  },
+  "hickory": {
+    "city": "Hickory, North Carolina",
+    "location": {
+      "lat": 35.7344538,
+      "lon": -81.3444573
+    }
+  },
+  "onslow": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "outerbanks": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "raleigh": {
+    "city": "Raleigh, North Carolina",
+    "location": {
+      "lat": 35.7795897,
+      "lon": -78.6381787
+    }
+  },
+  "wilmington": {
+    "city": "Wilmington, Delaware",
+    "location": {
+      "lat": 39.7390721,
+      "lon": -75.5397878
+    }
+  },
+  "winstonsalem": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "bismarck": {
+    "city": "Bismarck, North Dakota",
+    "location": {
+      "lat": 46.8083268,
+      "lon": -100.7837392
+    }
+  },
+  "fargo": {
+    "city": "Fargo, North Dakota",
+    "location": {
+      "lat": 46.8771863,
+      "lon": -96.7898034
+    }
+  },
+  "grandforks": {
+    "city": "Grand Forks, North Dakota",
+    "location": {
+      "lat": 47.9252568,
+      "lon": -97.0328547
+    }
+  },
+  "nd": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "akroncanton": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "ashtabula": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "athensohio": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "chillicothe": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "cincinnati": {
+    "city": "Cincinnati, Ohio",
+    "location": {
+      "lat": 39.1031182,
+      "lon": -84.5120196
+    }
+  },
+  "cleveland": {
+    "city": "Cleveland, Tennessee",
+    "location": {
+      "lat": 35.1595182,
+      "lon": -84.8766115
+    }
+  },
+  "columbus": {
+    "city": "Columbus, Indiana",
+    "location": {
+      "lat": 39.2014404,
+      "lon": -85.9213796
+    }
+  },
+  "dayton": {
+    "city": "Dayton, Ohio",
+    "location": {
+      "lat": 39.7589478,
+      "lon": -84.1916069
+    }
+  },
+  "limaohio": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "mansfield": {
+    "city": "Mansfield, Ohio",
+    "location": {
+      "lat": 40.75839,
+      "lon": -82.5154471
+    }
+  },
+  "sandusky": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "toledo": {
+    "city": "Toledo, Ohio",
+    "location": {
+      "lat": 41.6639383,
+      "lon": -83.55521200000001
+    }
+  },
+  "tuscarawas": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "youngstown": {
+    "city": "Youngstown, Ohio",
+    "location": {
+      "lat": 41.0997803,
+      "lon": -80.6495194
+    }
+  },
+  "zanesville": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "lawton": {
+    "city": "Lawton, Oklahoma",
+    "location": {
+      "lat": 34.6035669,
+      "lon": -98.39592909999999
+    }
+  },
+  "enid": {
+    "city": "Enid, Oklahoma",
+    "location": {
+      "lat": 36.3955891,
+      "lon": -97.8783911
+    }
+  },
+  "oklahomacity": {
+    "city": "Oklahoma City, Oklahoma",
+    "location": {
+      "lat": 35.4675602,
+      "lon": -97.5164276
+    }
+  },
+  "stillwater": {
+    "city": "Stillwater, Oklahoma",
+    "location": {
+      "lat": 36.1156071,
+      "lon": -97.0583681
+    }
+  },
+  "tulsa": {
+    "city": "Tulsa, Oklahoma",
+    "location": {
+      "lat": 36.1539816,
+      "lon": -95.99277500000001
+    }
+  },
+  "bend": {
+    "city": "Bend, Oregon",
+    "location": {
+      "lat": 44.0581728,
+      "lon": -121.3153096
+    }
+  },
+  "corvallis": {
+    "city": "Corvallis, Oregon",
+    "location": {
+      "lat": 44.5645659,
+      "lon": -123.2620435
+    }
+  },
+  "eastoregon": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "eugene": {
+    "city": "Eugene, Oregon",
+    "location": {
+      "lat": 44.0520691,
+      "lon": -123.0867536
+    }
+  },
+  "klamath": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "medford": {
+    "city": "Medford, Massachusetts",
+    "location": {
+      "lat": 42.4184296,
+      "lon": -71.1061639
+    }
+  },
+  "oregoncoast": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "portland": {
+    "city": "Portland, Maine",
+    "location": {
+      "lat": 43.66147100000001,
+      "lon": -70.2553259
+    }
+  },
+  "roseburg": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "salem": {
+    "city": "Salem, Massachusetts",
+    "location": {
+      "lat": 42.51954,
+      "lon": -70.8967155
+    }
+  },
+  "altoona": {
+    "city": "Altoona, Pennsylvania",
+    "location": {
+      "lat": 40.5186809,
+      "lon": -78.3947359
+    }
+  },
+  "chambersburg": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "erie": {
+    "city": "Erie, Pennsylvania",
+    "location": {
+      "lat": 42.12922409999999,
+      "lon": -80.085059
+    }
+  },
+  "harrisburg": {
+    "city": "Harrisburg, Pennsylvania",
+    "location": {
+      "lat": 40.2731911,
+      "lon": -76.8867008
+    }
+  },
+  "lancaster": {
+    "city": "Lancaster, Texas",
+    "location": {
+      "lat": 32.5920798,
+      "lon": -96.7561082
+    }
+  },
+  "allentown": {
+    "city": "Allentown, Pennsylvania",
+    "location": {
+      "lat": 40.6084305,
+      "lon": -75.4901833
+    }
+  },
+  "meadville": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "philadelphia": {
+    "city": "Philadelphia, Pennsylvania",
+    "location": {
+      "lat": 39.9525839,
+      "lon": -75.1652215
+    }
+  },
+  "pittsburgh": {
+    "city": "Pittsburgh, Pennsylvania",
+    "location": {
+      "lat": 40.44062479999999,
+      "lon": -79.9958864
+    }
+  },
+  "poconos": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "reading": {
+    "city": "Reading, Pennsylvania",
+    "location": {
+      "lat": 40.3356483,
+      "lon": -75.9268747
+    }
+  },
+  "scranton": {
+    "city": "Scranton, Pennsylvania",
+    "location": {
+      "lat": 41.408969,
+      "lon": -75.66241219999999
+    }
+  },
+  "pennstate": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "williamsport": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "york": {
+    "city": "York, Pennsylvania",
+    "location": {
+      "lat": 39.9625984,
+      "lon": -76.727745
+    }
+  },
+  "providence": {
+    "city": "Providence, Rhode Island",
+    "location": {
+      "lat": 41.8239891,
+      "lon": -71.4128343
+    }
+  },
+  "charleston": {
+    "city": "Charleston, West Virginia",
+    "location": {
+      "lat": 38.3498195,
+      "lon": -81.6326234
+    }
+  },
+  "columbia": {
+    "city": "Columbia, Missouri",
+    "location": {
+      "lat": 38.9517053,
+      "lon": -92.3340724
+    }
+  },
+  "florencesc": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "greenville": {
+    "city": "Greenville, South Carolina",
+    "location": {
+      "lat": 34.85261759999999,
+      "lon": -82.3940104
+    }
+  },
+  "hiltonhead": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "myrtlebeach": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "nesd": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "csd": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "rapidcity": {
+    "city": "Rapid City, South Dakota",
+    "location": {
+      "lat": 44.0805434,
+      "lon": -103.2310149
+    }
+  },
+  "siouxfalls": {
+    "city": "Sioux Falls, South Dakota",
+    "location": {
+      "lat": 43.5445959,
+      "lon": -96.73110340000001
+    }
+  },
+  "sd": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "chattanooga": {
+    "city": "Chattanooga, Tennessee",
+    "location": {
+      "lat": 35.0456297,
+      "lon": -85.3096801
+    }
+  },
+  "clarksville": {
+    "city": "Clarksville, Tennessee",
+    "location": {
+      "lat": 36.5297706,
+      "lon": -87.3594528
+    }
+  },
+  "cookeville": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "jacksontn": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "knoxville": {
+    "city": "Knoxville, Tennessee",
+    "location": {
+      "lat": 35.9606384,
+      "lon": -83.9207392
+    }
+  },
+  "memphis": {
+    "city": "Memphis, Tennessee",
+    "location": {
+      "lat": 35.1495343,
+      "lon": -90.0489801
+    }
+  },
+  "nashville": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "tricities": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "abilene": {
+    "city": "Abilene, Texas",
+    "location": {
+      "lat": 32.4487364,
+      "lon": -99.73314390000002
+    }
+  },
+  "amarillo": {
+    "city": "Amarillo, Texas",
+    "location": {
+      "lat": 35.2219971,
+      "lon": -101.8312969
+    }
+  },
+  "austin": {
+    "city": "Austin, Texas",
+    "location": {
+      "lat": 30.267153,
+      "lon": -97.7430608
+    }
+  },
+  "beaumont": {
+    "city": "Beaumont, California",
+    "location": {
+      "lat": 33.9294606,
+      "lon": -116.977248
+    }
+  },
+  "brownsville": {
+    "city": "Brownsville, Texas",
+    "location": {
+      "lat": 25.9017472,
+      "lon": -97.4974838
+    }
+  },
+  "collegestation": {
+    "city": "College Station, Texas",
+    "location": {
+      "lat": 30.627977,
+      "lon": -96.3344068
+    }
+  },
+  "corpuschristi": {
+    "city": "Corpus Christi, Texas",
+    "location": {
+      "lat": 27.8005828,
+      "lon": -97.39638099999999
+    }
+  },
+  "dallas": {
+    "city": "Dallas, Texas",
+    "location": {
+      "lat": 32.7766642,
+      "lon": -96.79698789999999
+    }
+  },
+  "nacogdoches": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "delrio": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "elpaso": {
+    "city": "El Paso, Texas",
+    "location": {
+      "lat": 31.7775757,
+      "lon": -106.4424559
+    }
+  },
+  "galveston": {
+    "city": "Galveston, Texas",
+    "location": {
+      "lat": 29.3013479,
+      "lon": -94.7976958
+    }
+  },
+  "houston": {
+    "city": "Houston, Texas",
+    "location": {
+      "lat": 29.7604267,
+      "lon": -95.3698028
+    }
+  },
+  "killeen": {
+    "city": "Killeen, Texas",
+    "location": {
+      "lat": 31.1171194,
+      "lon": -97.72779589999999
+    }
+  },
+  "laredo": {
+    "city": "Laredo, Texas",
+    "location": {
+      "lat": 27.5305671,
+      "lon": -99.48032409999999
+    }
+  },
+  "lubbock": {
+    "city": "Lubbock, Texas",
+    "location": {
+      "lat": 33.5778631,
+      "lon": -101.8551665
+    }
+  },
+  "mcallen": {
+    "city": "McAllen, Texas",
+    "location": {
+      "lat": 26.2034071,
+      "lon": -98.23001239999999
+    }
+  },
+  "odessa": {
+    "city": "Odessa, Texas",
+    "location": {
+      "lat": 31.8456816,
+      "lon": -102.3676431
+    }
+  },
+  "sanangelo": {
+    "city": "San Angelo, Texas",
+    "location": {
+      "lat": 31.4637723,
+      "lon": -100.4370375
+    }
+  },
+  "sanantonio": {
+    "city": "San Antonio, Texas",
+    "location": {
+      "lat": 29.4241219,
+      "lon": -98.49362819999999
+    }
+  },
+  "sanmarcos": {
+    "city": "San Marcos, Texas",
+    "location": {
+      "lat": 29.8832749,
+      "lon": -97.9413941
+    }
+  },
+  "bigbend": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "texoma": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "easttexas": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "victoriatx": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "waco": {
+    "city": "Waco, Texas",
+    "location": {
+      "lat": 31.549333,
+      "lon": -97.1466695
+    }
+  },
+  "wichitafalls": {
+    "city": "Wichita Falls, Texas",
+    "location": {
+      "lat": 33.9137085,
+      "lon": -98.4933873
+    }
+  },
+  "logan": {
+    "city": "Logan, Utah",
+    "location": {
+      "lat": 41.7369803,
+      "lon": -111.8338359
+    }
+  },
+  "ogden": {
+    "city": "Ogden, Utah",
+    "location": {
+      "lat": 41.223,
+      "lon": -111.9738304
+    }
+  },
+  "provo": {
+    "city": "Provo, Utah",
+    "location": {
+      "lat": 40.2338438,
+      "lon": -111.6585337
+    }
+  },
+  "saltlakecity": {
+    "city": "Salt Lake City, Utah",
+    "location": {
+      "lat": 40.7607793,
+      "lon": -111.8910474
+    }
+  },
+  "stgeorge": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "burlington": {
+    "city": "Burlington, Vermont",
+    "location": {
+      "lat": 44.4758825,
+      "lon": -73.21207199999999
+    }
+  },
+  "charlottesville": {
+    "city": "Charlottesville, Virginia",
+    "location": {
+      "lat": 38.0293059,
+      "lon": -78.47667810000002
+    }
+  },
+  "danville": {
+    "city": "Danville, Virginia",
+    "location": {
+      "lat": 36.5859718,
+      "lon": -79.39502279999999
+    }
+  },
+  "fredericksburg": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "norfolk": {
+    "city": "Norfolk, Virginia",
+    "location": {
+      "lat": 36.8507689,
+      "lon": -76.28587259999999
+    }
+  },
+  "harrisonburg": {
+    "city": "Harrisonburg, Virginia",
+    "location": {
+      "lat": 38.4495688,
+      "lon": -78.8689155
+    }
+  },
+  "lynchburg": {
+    "city": "Lynchburg, Virginia",
+    "location": {
+      "lat": 37.4137536,
+      "lon": -79.14224639999999
+    }
+  },
+  "blacksburg": {
+    "city": "Blacksburg, Virginia",
+    "location": {
+      "lat": 37.2295733,
+      "lon": -80.4139393
+    }
+  },
+  "richmond": {
+    "city": "Richmond, California",
+    "location": {
+      "lat": 37.9357576,
+      "lon": -122.3477486
+    }
+  },
+  "roanoke": {
+    "city": "Roanoke, Virginia",
+    "location": {
+      "lat": 37.2709704,
+      "lon": -79.9414266
+    }
+  },
+  "swva": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "winchester": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "bellingham": {
+    "city": "Bellingham, Washington",
+    "location": {
+      "lat": 48.74908,
+      "lon": -122.4781473
+    }
+  },
+  "kpr": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "moseslake": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "olympic": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "pullman": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "seattle": {
+    "city": "Seattle, Washington",
+    "location": {
+      "lat": 47.6062095,
+      "lon": -122.3320708
+    }
+  },
+  "skagit": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "spokane": {
+    "city": "Spokane, Washington",
+    "location": {
+      "lat": 47.6587802,
+      "lon": -117.4260466
+    }
+  },
+  "wenatchee": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "yakima": {
+    "city": "Yakima, Washington",
+    "location": {
+      "lat": 46.6020711,
+      "lon": -120.5058987
+    }
+  },
+  "charlestonwv": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "martinsburg": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "huntington": {
+    "city": "Huntington, West Virginia",
+    "location": {
+      "lat": 38.4192496,
+      "lon": -82.44515400000002
+    }
+  },
+  "morgantown": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "wheeling": {
+    "city": "Wheeling, Illinois",
+    "location": {
+      "lat": 42.1391927,
+      "lon": -87.9289591
+    }
+  },
+  "parkersburg": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "swv": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "wv": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "appleton": {
+    "city": "Appleton, Wisconsin",
+    "location": {
+      "lat": 44.2619309,
+      "lon": -88.41538469999999
+    }
+  },
+  "eauclaire": {
+    "city": "Eau Claire, Wisconsin",
+    "location": {
+      "lat": 44.811349,
+      "lon": -91.4984941
+    }
+  },
+  "greenbay": {
+    "city": "Green Bay, Wisconsin",
+    "location": {
+      "lat": 44.51915899999999,
+      "lon": -88.019826
+    }
+  },
+  "janesville": {
+    "city": "Janesville, Wisconsin",
+    "location": {
+      "lat": 42.6827885,
+      "lon": -89.0187222
+    }
+  },
+  "racine": {
+    "city": "Racine, Wisconsin",
+    "location": {
+      "lat": 42.7261309,
+      "lon": -87.78285230000002
+    }
+  },
+  "lacrosse": {
+    "city": "La Crosse, Wisconsin",
+    "location": {
+      "lat": 43.8013556,
+      "lon": -91.23958069999999
+    }
+  },
+  "madison": {
+    "city": "Madison, Alabama",
+    "location": {
+      "lat": 34.6992579,
+      "lon": -86.74833180000002
+    }
+  },
+  "milwaukee": {
+    "city": "Milwaukee, Wisconsin",
+    "location": {
+      "lat": 43.0389025,
+      "lon": -87.9064736
+    }
+  },
+  "northernwi": {
+    "city": "",
+    "location": {
+      "lat": 0,
+      "lon": 0
+    }
+  },
+  "sheboygan": {
+    "city": "Sheboygan, Wisconsin",
+    "location": {
+      "lat": 43.7508284,
+      "lon": -87.71453
+    }
+  },
+  "wausau": {
+    "city": "Wausau, Wisconsin",
+    "location": {
+      "lat": 44.9591352,
+      "lon": -89.6301221
+    }
+  },
+  "wyoming": {
+    "city": "Wyoming, Michigan",
+    "location": {
+      "lat": 42.9133602,
+      "lon": -85.7053085
+    }
+  }
+}

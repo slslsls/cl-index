@@ -98,7 +98,9 @@ function indexEsDocuments(esDocs) {
             body: esDocs,
             refresh: 'true'
           };
-          esClient.bulk(bulkOptions);
+          esClient.bulk(bulkOptions, (err, res) => {
+            console.log('Done');
+          });
         }
       });
     }
@@ -121,12 +123,13 @@ function fetchAndIndexPostings() {
               title: decodeAsciiApostrophes(posting.title),
               url: posting.url
             };
-            console.log(`queueing document: subdomain '${esDocument.subdomain}', title '${esDocument.title}'`);
+            // console.log(`queueing document: subdomain '${esDocument.subdomain}', title '${esDocument.title}'`);
             esDocs.push({ index:  { _index: 'listings', _type: '_doc'} });
             esDocs.push(esDocument);
           });
         }
       });
+      console.log('Indexing documents...');
       indexEsDocuments(esDocs);
     });
 }
