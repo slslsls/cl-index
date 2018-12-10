@@ -119,10 +119,10 @@
     }
   },
   "showlow": {
-    "city": "",
+    "city": "Show Low, Arizona",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 34.2542,
+      "lon": -110.0298
     }
   },
   "sierravista": {
@@ -1792,10 +1792,10 @@
     }
   },
   "twintiers": {
-    "city": "",
+    "city": "Twin Tiers, New York",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 42.0987,
+      "lon": -75.9180
     }
   },
   "utica": {
@@ -1806,10 +1806,10 @@
     }
   },
   "watertown": {
-    "city": "",
+    "city": "Watertown, New York",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 43.9748,
+      "lon": -75.9108
     }
   },
   "asheville": {
@@ -1820,10 +1820,10 @@
     }
   },
   "boone": {
-    "city": "",
+    "city": "Boone, North Carolina",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 36.2168,
+      "lon": -81.6746
     }
   },
   "charlotte": {
@@ -1834,10 +1834,10 @@
     }
   },
   "eastnc": {
-    "city": "",
+    "city": "Eastern North Carolina, North Carolina",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 35.782169,
+      "lon": -80.793457
     }
   },
   "fayetteville": {
@@ -1862,17 +1862,17 @@
     }
   },
   "onslow": {
-    "city": "",
+    "city": "Onslow County, North Carolina",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 34.6540,
+      "lon": -77.4702
     }
   },
   "outerbanks": {
-    "city": "",
+    "city": "Outer Banks, North Carolina",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 35.5585,
+      "lon": -75.4665
     }
   },
   "raleigh": {
@@ -1890,10 +1890,10 @@
     }
   },
   "winstonsalem": {
-    "city": "",
+    "city": "Winston-Salem, North Carolina",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 36.0999,
+      "lon": -80.2442
     }
   },
   "bismarck": {
@@ -1918,38 +1918,38 @@
     }
   },
   "nd": {
-    "city": "",
+    "city": "North Dakota, North Dakota",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 47.5515,
+      "lon": -101.0020
     }
   },
   "akroncanton": {
-    "city": "",
+    "city": "Akron, Ohio",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 41.0814,
+      "lon": -81.5190
     }
   },
   "ashtabula": {
-    "city": "",
+    "city": "Ashtabula, Ohio",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 41.8651,
+      "lon": -80.7898
     }
   },
   "athensohio": {
-    "city": "",
+    "city": "Athens, Ohio",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 39.3292,
+      "lon": -82.1013
     }
   },
   "chillicothe": {
-    "city": "",
+    "city": "Chillicothe, Ohio",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 39.3331,
+      "lon": -82.9824
     }
   },
   "cincinnati": {
@@ -1981,10 +1981,10 @@
     }
   },
   "limaohio": {
-    "city": "",
+    "city": "Lima, Ohio",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 40.7426,
+      "lon": -84.1052
     }
   },
   "mansfield": {
@@ -1995,10 +1995,10 @@
     }
   },
   "sandusky": {
-    "city": "",
+    "city": "Sandusky, Ohio",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 41.4562,
+      "lon": -82.7117
     }
   },
   "toledo": {
@@ -2009,10 +2009,10 @@
     }
   },
   "tuscarawas": {
-    "city": "",
+    "city": "Tuscarawas, Ohio",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 40.3948,
+      "lon": -81.4071
     }
   },
   "youngstown": {
@@ -2023,10 +2023,10 @@
     }
   },
   "zanesville": {
-    "city": "",
+    "city": "Zanesville, Ohio",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 81.4071,
+      "lon": -82.0132
     }
   },
   "lawton": {
@@ -2079,10 +2079,10 @@
     }
   },
   "eastoregon": {
-    "city": "",
+    "city": "La Grande, Oregon",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 45.3246,
+      "lon": -118.0877
     }
   },
   "eugene": {
@@ -2093,10 +2093,10 @@
     }
   },
   "klamath": {
-    "city": "",
+    "city": "Klamath County, Oregon",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 42.6953,
+      "lon": -121.6142
     }
   },
   "medford": {
@@ -2107,10 +2107,10 @@
     }
   },
   "oregoncoast": {
-    "city": "",
+    "city": "Oregon Coast, Oregon",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 45.8918,
+      "lon": -123.9615
     }
   },
   "portland": {
@@ -2121,10 +2121,10 @@
     }
   },
   "roseburg": {
-    "city": "",
+    "city": "Roseburg, Oregon",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 43.2165,
+      "lon": -123.3417
     }
   },
   "salem": {
@@ -2142,10 +2142,10 @@
     }
   },
   "chambersburg": {
-    "city": "",
+    "city": "Chambersburg, Pennsylvania",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 39.9376,
+      "lon": -77.6611
     }
   },
   "erie": {
@@ -2177,10 +2177,10 @@
     }
   },
   "meadville": {
-    "city": "",
+    "city": "Meadville, Pennsylvania",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 41.6414,
+      "lon": -80.1514
     }
   },
   "philadelphia": {
@@ -2198,10 +2198,10 @@
     }
   },
   "poconos": {
-    "city": "",
+    "city": "Pocono Mountains, Pennsylvania",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 41.0700,
+      "lon": -75.4345
     }
   },
   "reading": {
@@ -2219,17 +2219,17 @@
     }
   },
   "pennstate": {
-    "city": "",
+    "city": "Penn State, Pennsylvania",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 40.7982,
+      "lon": -77.8599
     }
   },
   "williamsport": {
-    "city": "",
+    "city": "Williamsport, Pennsylvania",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 41.2412,
+      "lon": -77.0011
     }
   },
   "york": {
@@ -2261,10 +2261,10 @@
     }
   },
   "florencesc": {
-    "city": "",
+    "city": "Florence, South Carolina",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 34.1954,
+      "lon": -79.7626
     }
   },
   "greenville": {
@@ -2275,31 +2275,31 @@
     }
   },
   "hiltonhead": {
-    "city": "",
+    "city": "Hilton Head Island, South Carolina",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 32.2163,
+      "lon": -80.7526
     }
   },
   "myrtlebeach": {
-    "city": "",
+    "city": "Myrtle Beach, South Carolina",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 33.6891,
+      "lon": -78.8867
     }
   },
   "nesd": {
-    "city": "",
+    "city": "Northeast South Dakota, South Dakota",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 43.5473,
+      "lon": -96.7283
     }
   },
   "csd": {
-    "city": "",
+    "city": "Pierre, South Dakota",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 44.3668,
+      "lon": -100.3538
     }
   },
   "rapidcity": {
@@ -2317,10 +2317,10 @@
     }
   },
   "sd": {
-    "city": "",
+    "city": "South Dakta, South Dakota",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 43.9695,
+      "lon": -99.9018
     }
   },
   "chattanooga": {
@@ -2338,17 +2338,17 @@
     }
   },
   "cookeville": {
-    "city": "",
+    "city": "Cookeville, Tennessee",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 36.1628,
+      "lon": -85.5016
     }
   },
   "jacksontn": {
-    "city": "",
+    "city": "Jackson, Tennessee",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 35.6145,
+      "lon": -88.8139
     }
   },
   "knoxville": {
@@ -2366,17 +2366,17 @@
     }
   },
   "nashville": {
-    "city": "",
+    "city": "Nashville, Tennessee",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 36.1627,
+      "lon": -86.7816
     }
   },
   "tricities": {
-    "city": "",
+    "city": "Tri-Cities, Tennessee",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 36.548435,
+      "lon": -82.561821
     }
   },
   "abilene": {
@@ -2436,17 +2436,17 @@
     }
   },
   "nacogdoches": {
-    "city": "",
+    "city": "Deep East Texas, Texas",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 30.0802,
+      "lon": -94.1266
     }
   },
   "delrio": {
-    "city": "",
+    "city": "Del Rio, Texas",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 29.3709,
+      "lon": -100.8959
     }
   },
   "elpaso": {
@@ -2527,31 +2527,31 @@
     }
   },
   "bigbend": {
-    "city": "",
+    "city": "Southwest, Texas",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 29.1275,
+      "lon": -103.2425
     }
   },
   "texoma": {
-    "city": "",
+    "city": "Sherman, Texas",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 33.6357,
+      "lon": -96.6089
     }
   },
   "easttexas": {
-    "city": "",
+    "city": "Tyler, Texas",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 32.3513,
+      "lon": -95.3011
     }
   },
   "victoriatx": {
-    "city": "",
+    "city": "Victoria, Texas",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 28.8053,
+      "lon": -97.0036
     }
   },
   "waco": {
@@ -2597,10 +2597,10 @@
     }
   },
   "stgeorge": {
-    "city": "",
+    "city": "St. George, Utah",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 37.0965,
+      "lon": -113.5684
     }
   },
   "burlington": {
@@ -2625,10 +2625,10 @@
     }
   },
   "fredericksburg": {
-    "city": "",
+    "city": "Fredericksburg, Virginia",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 38.3032,
+      "lon": -77.4605
     }
   },
   "norfolk": {
@@ -2674,17 +2674,17 @@
     }
   },
   "swva": {
-    "city": "",
+    "city": "Abingdon, Virginia",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 36.7098,
+      "lon": -81.9773
     }
   },
   "winchester": {
-    "city": "",
+    "city": "Winchester, Virginia",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 39.1857,
+      "lon": -78.1633
     }
   },
   "bellingham": {
@@ -2695,31 +2695,31 @@
     }
   },
   "kpr": {
-    "city": "",
+    "city": "Kennewick-Pasco-Richland, Washington",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.2087,
+      "lon": -119.1199
     }
   },
   "moseslake": {
-    "city": "",
+    "city": "Moses Lake, Washington",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 47.1301,
+      "lon": -119.2781
     }
   },
   "olympic": {
-    "city": "",
+    "city": "Olympic Peninsula, Washington",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 47.8021,
+      "lon": -123.6044
     }
   },
   "pullman": {
-    "city": "",
+    "city": "Pullman, Washington",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.7298,
+      "lon": -117.1817
     }
   },
   "seattle": {
@@ -2730,10 +2730,10 @@
     }
   },
   "skagit": {
-    "city": "",
+    "city": "Skagit County, Washington",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 48.4242,
+      "lon": -121.7114
     }
   },
   "spokane": {
@@ -2744,10 +2744,10 @@
     }
   },
   "wenatchee": {
-    "city": "",
+    "city": "Wenatchee, Washington",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 47.4235,
+      "lon": -120.3103
     }
   },
   "yakima": {
@@ -2758,17 +2758,17 @@
     }
   },
   "charlestonwv": {
-    "city": "",
+    "city": "Charleston, West Virginia",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 38.3498,
+      "lon": -81.6326
     }
   },
   "martinsburg": {
-    "city": "",
+    "city": "Martinsburg, West Virginia",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 39.4562,
+      "lon": -77.9639
     }
   },
   "huntington": {
@@ -2779,38 +2779,38 @@
     }
   },
   "morgantown": {
-    "city": "",
+    "city": "Morgantown, West Virginia",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 39.6295,
+      "lon": -79.9559
     }
   },
   "wheeling": {
-    "city": "Wheeling, Illinois",
+    "city": "Wheeling, West Virginia",
     "location": {
-      "lat": 42.1391927,
-      "lon": -87.9289591
+      "lat": 40.0640,
+      "lon": -80.7209
     }
   },
   "parkersburg": {
-    "city": "",
+    "city": "Parkersburg, West Virginia",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 39.2667,
+      "lon": -81.5615
     }
   },
   "swv": {
-    "city": "",
+    "city": "Southern West Virginia, West Virginia",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 38.3498,
+      "lon": -81.6326
     }
   },
   "wv": {
-    "city": "",
+    "city": "West Virginia, West Virginia",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 38.5976,
+      "lon": -80.4549
     }
   },
   "appleton": {
@@ -2870,10 +2870,10 @@
     }
   },
   "northernwi": {
-    "city": "",
+    "city": "Appleton, Wisconsin",
     "location": {
-      "lat": 0,
-      "lon": 0
+      "lat": 44.2619,
+      "lon": -88.4154
     }
   },
   "sheboygan": {
